@@ -1,18 +1,18 @@
  
 *{
-    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
     
 }
 
  h1 {
     text-align: center;
     font-size: 80px;
-    color: rgba(225, 166, 107, 0.96);
-    border-bottom: 5px solid rgba(71, 65, 179, 0.6);
+    color: rgb(255, 255, 255);
+    
 }
  
 #container{
-    background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
     height: 100%;
     width: auto;
     padding: 50px;
@@ -45,7 +45,7 @@
     display: inline-block;
     text-align: center;
     margin: 6px;
-    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    background-image: radial-gradient( circle 685.3px at 47.8% 55.1%,  rgba(255,99,152,1) 0%, rgba(251,213,149,1) 90.1% );
     border-radius: 9px;
     
 }
@@ -59,7 +59,7 @@
     display: inline-block;
     text-align: center;
     margin: 5px;
-    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    background-image: radial-gradient( circle 685.3px at 47.8% 55.1%,  rgba(255,99,152,1) 0%, rgba(251,213,149,1) 90.1% );
     border-radius: 9px;
     
 }
@@ -73,13 +73,13 @@
     display: inline-block;
     text-align: center;
     margin: 5px;
-    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    background-image: radial-gradient( circle 685.3px at 47.8% 55.1%,  rgba(255,99,152,1) 0%, rgba(251,213,149,1) 90.1% );
     border-radius: 9px;
     
 }
 
 .gen1head  {
-    background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
+    background-image: linear-gradient(to top, #feada6 0%, #f5efef 100%);
     padding: 10px;
     width: auto;
     height: auto;
@@ -90,7 +90,7 @@
 }
 
 .gen2head  {
-    background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
+    background-image: linear-gradient(to top, #feada6 0%, #f5efef 100%);
     padding: 10px;
     border-radius: 60px;
     color: black;
@@ -99,7 +99,7 @@
 }
 
 .gen3head  {
-    background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
+    background-image: linear-gradient(to top, #feada6 0%, #f5efef 100%);
     padding: 10px;
     border-radius: 60px;
     color: black;
@@ -108,7 +108,7 @@
 }
 
 .btn{
-    background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+    background-image: linear-gradient(to top, #a3bded 0%, #6991c7 100%);
     border: none;
     width: 400px;
     padding: 20px;
@@ -119,6 +119,7 @@
     color: azure;
     font-weight: 600;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 .btn:hover{
@@ -142,4 +143,72 @@
     }
 
     
+  }
+
+  @media only screen and (max-width: 690px){
+
+    #container{
+        
+        height: 100%;
+        width: auto;
+        padding: 30px;
+        border-radius: 20px;
+        margin: 4%;
+    
+    
+    }
+
+
+
+    .Gen1, 
+    .Gen2,
+    .Gen3{
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+   
+    
+    .Gen1  div img,
+    .Gen2  div img,
+    .Gen3  div img{
+        width: 50px;
+        height: 50px;
+    }
+
+  }
+
+  @media only screen and (max-width: 450px){
+
+    #container{
+        
+        height: 100%;
+        width: auto;
+        padding: 30px;
+        border-radius: 20px;
+        margin: 4%;
+    
+    
+    }
+
+
+
+    .Gen1, 
+    .Gen2,
+    .Gen3{
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+   
+    
+    .Gen1  div img,
+    .Gen2  div img,
+    .Gen3  div img{
+        width: 40px;
+        height: 40px;
+    }
+
   }
